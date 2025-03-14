@@ -1,0 +1,91 @@
+*{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+.head{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Desktop - 3.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative !important;
+}
+.head .nav{
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center !important;
+    
+}
+.head .icons i{
+    padding: 0px 15px;
+    font-size: 20px;
+    margin-top: 17px;
+}
+.head .boot h5{
+    color: #444243;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+/* content */
+.content div h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.content div h1 span{
+    font-size: 80px;
+    font-weight: 700;
+}
+.content div h6{
+    width: 400px;
+    color: #c1c1c4;
+    line-height: 1.5;
+}
+.content div div .Get{
+    background-color: #fff;
+    color: #444243;
+    font-size: 18px;
+    padding: 18px 20px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 20px;
+}
+.content div div .Learn{
+   background-color:rgba(0, 0, 0, 0.5);
+   color: #fff;
+   font-size: 18px;
+   padding: 18px 20px;
+   border-radius: 50px;
+   border:1px solid #fff;
+   margin-right: 20px;
+}
+
+
+/* topics */
+
+
+#topics{
+    background-image: url("../images/Frame 9 (1).png");
+    background-size: cover; 
+}
+#topics .topic{
+    margin-top: 100px;
+}
+#topics .topic .intro h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+#topics .topic .intro img{
+    font-size: 30px !important;
+}
+.view{
+    background-color: #067d73 !important;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    
+   
+}
