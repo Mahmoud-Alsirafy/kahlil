@@ -86,6 +86,85 @@
     border: none;
     color: #fff;
     border-radius: 10px;
+}
+
+/* health */
+
+#health{
+    background-color: #fcfff1;
+}
+#health .row{
+    margin: 100px 70px !important;
+}
+#health .row .health button{
+    background-color: #067d73 !important;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    width: 190px ;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+#health .row .health *{
+    margin-top: 30px;
+}
+
+/* ai */
+
+#ai{
+    background-color: #fcfff1;
+    margin-bottom: 50px;
+}
+
+#ai .header *{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ai .header .Start{
+    background-color: #067d73 !important;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    width: 190px ;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+#ai .header .Discover{
+    background-color: #fff !important;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    width: 230px ;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.ai_content{
+    background-color: #b5cda9;
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+.ai_content *{
+    margin-top: 20px;
+}
+.ai_content i{
+    border-radius: 10px;
+}
+
+/*  */
+
+.answer .answer{
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+    padding: 20px;
+    padding-top: 25px;
+    border-radius: 10px;
+    align-items: center;
     
-   
 }
